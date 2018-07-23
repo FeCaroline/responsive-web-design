@@ -1,0 +1,174 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12,  1fr);
+  grid-template-rows: repeat(6,  80px);
+  grid-gap: 10px;
+}
+
+.item1 {
+  background-color: yellow;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.item2 {
+  background-color: yellow;
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.item3 {
+  background-color: yellow;
+  grid-row: 1;
+  grid-column: 3;
+}
+
+.item4 {
+  background-color: yellow;
+  grid-row: 1;
+  grid-column: 4;
+}
+
+.item5 {
+  background-color: yellow;
+  grid-row: 1;
+  grid-column: 5;
+}
+
+.item6 {
+  background-color: yellow;
+  grid-row: 1;
+  grid-column: 6;
+}
+
+.item7 {
+  background-color: yellow;
+  grid-row: 1;
+  grid-column: 7;
+}
+
+.item8 {
+  background-color: yellow;
+  grid-row: 1;
+  grid-column: 8;
+}
+
+.item9 {
+  background-color: yellow;
+  grid-row: 1;
+  grid-column: 9;
+}
+
+.item10 {
+  background-color: yellow;
+  grid-row: 1;
+  grid-column: 10;
+}
+
+.item11 {
+  background-color: yellow;
+  grid-row: 1;
+  grid-column: 11;
+}
+
+.item12 {
+  background-color: yellow;
+  grid-row: 1;
+  grid-column: 12;
+}
+
+.item13 {
+  background-color: greenyellow;
+  grid-row: 2;
+  grid-column: 1 / span 2;
+}
+
+.item14 {
+  background-color: greenyellow;
+  grid-row: 2;
+  grid-column: 3 / span 2;
+}
+
+.item15 {
+  background-color: greenyellow;
+  grid-row: 2;
+  grid-column: 5 / span 2;
+}
+
+.item16 {
+  background-color: greenyellow;
+  grid-row: 2;
+  grid-column: 7 / span 2;
+}
+
+.item17 {
+  background-color: greenyellow;
+  grid-row: 2;
+  grid-column: 9 / span 2;
+}
+
+.item18 {
+  background-color: greenyellow;
+  grid-row: 2;
+  grid-column: 11 / span 2;
+}
+
+.item19 {
+  background-color: lightgreen;
+  grid-row: 3;
+  grid-column: 1 / span 3;
+}
+
+.item20 {
+  background-color: lightgreen;
+  grid-row: 3;
+  grid-column: 4 / span 3;
+}
+
+.item21 {
+  background-color: lightgreen;
+  grid-row: 3;
+  grid-column: 7 / span 3;
+}
+
+.item22 {
+  background-color: lightgreen;
+  grid-row: 3;
+  grid-column: 10 / span 3;
+}
+
+.item23 {
+  background-color: lightseagreen;
+  grid-row: 4;
+  grid-column: 1 / span 4;
+}
+
+.item24 {
+  background-color: lightseagreen;
+  grid-row: 4;
+  grid-column: 5 / span 4;
+}
+
+.item25 {
+  background-color: lightseagreen;
+  grid-row: 4;
+  grid-column: 9 / span 4;
+}
+
+.item26 {
+  background-color: darkorchid;
+  grid-row: 5;
+  grid-column: 1 / span 6;
+}
+
+.item27 {
+  background-color: darkorchid;
+  grid-row: 5;
+  grid-column: 7 / span 6;
+}
+
+.item28 {
+  background-color: fuchsia;
+  grid-row: 6;
+  grid-column: 1 / span 12;
+}
