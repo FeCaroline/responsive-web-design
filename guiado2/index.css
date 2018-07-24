@@ -1,0 +1,41 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 30vh 70vh;
+  grid-gap: 1vh;
+  grid-template-areas: "header header"
+                       "content sidebar";
+}
+
+header {
+  grid-area: header;
+  background-color: yellow;
+}
+
+main {
+  grid-area: content;
+  background-color: green;
+}
+
+aside {
+  grid-area: sidebar;
+  background-color: pink;
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 15vh 70vh 15vh;
+    grid-gap: 1vh;
+    grid-template-areas: "header"
+                         "content"
+                         "sidebar";
+  }
+
+}
+
+/*
+break points
+
+https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile
+*/
