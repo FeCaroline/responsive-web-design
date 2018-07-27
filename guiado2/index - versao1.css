@@ -47,11 +47,13 @@ footer {
 
 @media screen and (max-width: 480px) {
   .wrapper {
-    grid-template-rows: 100px 400px 100px;
-    grid-template-columns: 1fr 2fr;
-    grid-template-areas: "header"
-                         "content"
-                         "sidebar";
+    grid-template-rows: 100px 400px 100px 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header header header"
+                         "content1 content1 content1"
+                         "content2 content3 content4"
+                         "sidebar sidebar sidebar";
+   grid-gap:10px;
   }
 }
 

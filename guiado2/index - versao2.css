@@ -1,10 +1,10 @@
 .wrapper {
 display: grid;
-grid-template-rows: 50px 100px 150px;
+grid-template-rows: 50px 100px 150px 50px;
 grid-template-columns: 1fr 1fr 1fr 2fr;
 grid-template-areas: "header header header header "
-                     "content1 content1 content1 sidebar"
-                     "content2 content3 content4 sidebar";
+                     "content1 content2 content3 sidebar"
+                     "content4 content5 content6 sidebar";
 
 
 grid-gap: 10px;
@@ -13,10 +13,9 @@ grid-gap: 10px;
 header {
   grid-area:header;
   background-color: yellow;
-
 }
 
- main {
+ .B {
   grid-area:content1;
   background-color: green;
 
@@ -36,7 +35,17 @@ background-color: magenta;
 }
 .E {
 grid-area:content4;
-background-color: gold;
+background-color: red;
+
+}
+.F {
+grid-area:content5;
+background-color: lightblue;
+
+}
+.G {
+grid-area:content6;
+background-color:orange;
 
 }
 footer {
@@ -47,11 +56,13 @@ footer {
 
 @media screen and (max-width: 480px) {
   .wrapper {
-    grid-template-rows: 100px 400px 100px;
-    grid-template-columns: 1fr 2fr;
-    grid-template-areas: "header"
-                         "content"
-                         "sidebar";
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header header header"
+                         "content1 content2 content3"
+                         "content4 content5 content6"
+                         "sidebar sidebar sidebar";
+   grid-gap:10px;
   }
 }
 
